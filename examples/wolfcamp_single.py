@@ -163,8 +163,7 @@ stats_curves = ['OIP', 'BVH', 'PHIE', 'SW', 'VCLAY', 'TOC']
 # already included in the csv file            #
 
 log.statistics_to_csv('wfmp_statistics.csv', replace = True,
-                      formations = f, curves = stats_curves,
-                      pay_flags = pay_flags, facies = facies_curves)
+                      formations = f, curves = stats_curves)
 
 ### 11. export data ###
 
